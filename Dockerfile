@@ -7,6 +7,7 @@ RUN apt update && apt -y install software-properties-common && apt update
 RUN apt-add-repository ppa:brightbox/ruby-ng
 RUN apt-get update && apt-get -y install --no-install-recommends \
     curl \
+    python2 \
     ruby2.6 \
     ruby2.6-dev \
     build-essential \
